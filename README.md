@@ -1,2 +1,2 @@
-# standard
-Penlook Standard Coding Convention
+# Penlook Coding Convention
+
