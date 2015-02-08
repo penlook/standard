@@ -19,3 +19,30 @@
 # | along with this program.  If not, see <http://www.gnu.org/licenses/>.    |
 # |                                                                          |
 # +--------------------------------------------------------------------------+
+
+# Set and export standard PATH plus system admin directories.
+# Secure umask protects accounting files created by this script.
+#
+PATH=/bin:/usr/bin:/sbin:/usr/sbin ; export PATH
+umask 077
+
+# Create empty lock file and attempt to create link to lock file.
+#
+>lockfile || exit $?
+ln lockfile lockfile.tmp || exit $?
+
+#######################################
+# Print string hello
+# Globals:
+#   none
+# Arguments:
+#   $1
+#   $2
+# Returns:
+#   None
+# Auth:
+#	vietna@penlook.com
+#######################################
+Hello () {
+   echo "Hello World $1 $2"
+}
