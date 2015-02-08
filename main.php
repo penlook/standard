@@ -27,7 +27,7 @@ namespace App\Controller;
 use App\Controller;
 
 /**
- * App Configuration
+ * App Controller
  *
  * @category   Penlook\Backend
  * @package    App\Controller
