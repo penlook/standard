@@ -28,7 +28,7 @@ use App\Controller;
 /**
  * App Configuration
  *
- * @category   Penlook Application
+ * @category   Penlook\Backend
  * @package    App\Controller
  * @copyright  Penlook Development Team
  * @license    GNU Affero General Public
@@ -37,7 +37,7 @@ use App\Controller;
  * @author     Tin Nguyen   <tinntt@penlook.com>
  * @author     Nam Nguyen   <namvh@penlook.com>
  * @version    1.0
- * @link       http://penlook.com
+ * @link       http://github.com/penlook
  * @since      Class available since Release 1.0
  */
 class MainController extends Controller
