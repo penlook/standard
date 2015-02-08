@@ -20,6 +20,12 @@
  | along with this program.  If not, see <http://www.gnu.org/licenses/>.    |
  |                                                                          |
  +--------------------------------------------------------------------------+
+ |   Author:                                                                |
+ |         Loi Nguyen   <loint@penlook.com>                                 |
+ |         Tin Nguyen   <tinntt@penlook.com>                                |
+ |         Viet Nguyen  <vietna@penlook.com>                                |
+ |         Nam Vo       <namvh@penlook.com>                                 |
+ +--------------------------------------------------------------------------+
 */
 
 namespace App\Controller;
@@ -33,10 +39,6 @@ use App\Controller;
  * @package    App\Controller
  * @copyright  Penlook Development Team
  * @license    GNU Affero General Public
- * @author     Loi Nguyen   <loint@penlook.com>
- * @author     Viet Nguyen  <vietna@penlook.com>
- * @author     Tin Nguyen   <tinntt@penlook.com>
- * @author     Nam Nguyen   <namvh@penlook.com>
  * @version    1.0
  * @link       http://github.com/penlook
  * @since      Class available since Release 1.0
