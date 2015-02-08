@@ -21,7 +21,7 @@
  *+--------------------------------------------------------------------------+
  */
 
-/*C+C+++C+++C+++C+++C+++C+++C+++C+++C+++C+++C+++C+++C+++C+++C+++C+++C
+/*-------------------------------------------------------------------
   Class:    Circle
 
   Summary:  Short summary of purpose and content of Circle.
@@ -34,7 +34,7 @@
               Short description of setRadius.
             ~Circle
               Destructor.
-C---C---C---C---C---C---C---C---C---C---C---C---C---C---C---C---C-C*/
+-------------------------------------------------------------------*/
 class Cicle {
     float radius;
   public:
@@ -43,7 +43,7 @@ class Cicle {
     setRadius(float);
 };
 
-/*F+F+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/*-------------------------------------------------------------------
   Function: getCircle
 
   Summary:  What MyLocalFunction is for and what it does.
@@ -52,7 +52,7 @@ class Cicle {
            	  Description (if have).
   Returns:  Value of radius.
               Description.
------------------------------------------------------------------F-F*/
+--------------------------------------------------------------------*/
 float getCircle(){
  return radius;
 }
