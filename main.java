@@ -31,7 +31,7 @@
  *
  * @author  Vietna@penlook.com
  * @version 1.0
- * @since   08-02-2015
+ * @since   Class available since Release 1.0
  */
 
 class Main {
@@ -41,11 +41,11 @@ class Main {
    * The main program.
    *
    * @param    args		command line arguments (ignored)
-   * @author			Vietna@penlook.com
+   * @author			vietna@penlook.com
    */
   public static void main( String [] args ) {
 	int radius = 5;
-    System.out.println("Value of PI is ", areaCircle(radius));
+    System.out.println("Value of area is ", areaCircle(radius));
   }
 
   /**
@@ -53,7 +53,7 @@ class Main {
    *
    * @param		Int radius		radius of the circle
    * @return					area of the circle
-   * @author					Vietna@penlook.com
+   * @author					vietna@penlook.com
    */
   public void areaCircle(Int radius){
 	  return PI * radius * radius;
