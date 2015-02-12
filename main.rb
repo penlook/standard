@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-=begin
- #
  # Penlook Project
  #
  # Copyright (c) 2015 Penlook Development Team
@@ -31,5 +29,3 @@
  #     Tin Nguyen       <tinntt@penlook.com>
  #     Nam Vo           <namvh@penlook.com>
  #     Viet Nguyen      <vietna@penlook.com>
- #
-=end

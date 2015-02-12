@@ -1,7 +1,5 @@
 #!/bin/bash
 
-<<HEADER
- #
  # Penlook Project
  #
  # Copyright (c) 2015 Penlook Development Team
@@ -31,8 +29,6 @@
  #     Tin Nguyen       <tinntt@penlook.com>
  #     Nam Vo           <namvh@penlook.com>
  #     Viet Nguyen      <vietna@penlook.com>
- #
-HEADER
 
 # Set and export standard PATH plus system admin directories.
 # Secure umask protects accounting files created by this script.
