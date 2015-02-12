@@ -32,39 +32,40 @@
  *
  */
 
-package redis
+/*-------------------------------------------------------------------
+  Class:    Circle
 
-import (
-	"fmt"
-)
+  Summary:  Short summary of purpose and content of Circle.
 
-/**
- * Module SQL
- *
- * @category   Penlook\Service
- * @package    SQL
- * @copyright  Penlook Development Team
- * @license    GNU Affero General Public
- * @version    1.0
- * @link       http://github.com/penlook
- */
-type Sql struct {
-    Name        string  // name of the server
-    Server      string  // address of the server
-    Port        int     // port number
-    Database    string  // name of the database
-    Charset     string  // character encode method
-    Username    string  // user of the server
-    Password    string  // passowrd of the server
-}
+  Methods:  Circle
+                Constructor.
+            getRadius
+                Short description of getRadius.
+            setRadius
+                Short description of setRadius.
+            ~Circle
+                Destructor.
+-------------------------------------------------------------------*/
+class Cicle {
+    private:
+        float radius;
 
-/**
- * Main function
- *
- * Some description about main function
- *
- * @return  void
-*/
-func main() {
-	fmt.Println("Hello world")
+    public:
+        Circle(float);
+        getRadius();
+        setRadius(float);
+};
+
+/*-------------------------------------------------------------------
+  Function: getCircle
+
+  Summary:  What MyLocalFunction is for and what it does.
+
+  Args:     none
+           	  Description (if have).
+  Returns:  Value of radius.
+              Description.
+--------------------------------------------------------------------*/
+float Circle::getCircle(){
+    return this->radius;
 }
